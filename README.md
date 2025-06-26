@@ -1,67 +1,72 @@
-**Airbnb Price Trends (Dashboard Analysis – Power BI)**
+**Airbnb Price Trends Dashboard (2024)**
 
-This project offers a detailed Power BI-based exploration into Airbnb rental pricing patterns across room types and guest capacities. It examines how pricing fluctuates based on service style (shared, private, etc.), the number of guests, and rental value ceilings, with a visual dashboard that makes insights instantly accessible.
+This project presents a Microsoft Power BI-based data analysis of Airbnb rental trends. It focuses on understanding how guest capacity and room type influence rental pricing, offering valuable insights into urban accommodation economics and pricing behavior.
 ________________________________________
 **Project Overview**
 
 **Objective:**
-To analyse Airbnb rent trends by examining average prices, max rent, room types, and guest accommodations. This report helps identify pricing gaps and opportunities across different lodging types in short-term rental markets.
+To analyze Airbnb rental prices by room type and number of guests using an interactive dashboard. The aim is to uncover patterns in pricing—such as maximum, minimum, and average rent—and how these are affected by room type categories and guest capacity.
 ________________________________________
 **Key Findings**
 
-•	Shared rooms in rental units have the highest average price.
-•	Room types like tents and serviced apartments consistently show lower price points.
-•	1-guest accommodations command disproportionately high rates.
-•	Price does not scale linearly with guest capacity rates per person can decrease or fluctuate.
-•	Some niche property types (e.g., treehouses) are undervalued relative to unique experience offerings.
+•	The maximum rent recorded is ₹36,080, while the average rent sits around ₹938.06.
+•	Minimum rent drops as low as ₹129, showing a wide disparity in pricing.
+•	Shared rooms in rental units recorded the highest average rent of ₹8.7K among all room types.
+•	Listings that accommodate only 1 guest had the highest average rent (₹14.7K), indicating premium pricing for solo stays in premium listings.
+•	Room types like Treehouses, Tents, and Serviced Apartments have significantly lower average pricing, showing niche or low-cost segments.
 ________________________________________
 **Dataset Summary**
 
-Included Power BI Pages:
-•	Overview Dashboard: Summarizes average prices, max rent, and room type comparisons.
-•	Guest Price Chart: Displays average pricing distribution by number of guests.
-•	Room Type Bar Chart: Visual breakdown of price per room type.
+Visual Summary Includes:
+•	KPI Cards for Max Rent, Avg. Rent, and Min Rent.
+•	Line charts showing price fluctuations over time.
+•	Average Price by Room Type bar chart.
+•	Average Price by Number of Guests bar chart.
 
-**Data Source:**
-
-Simulated Airbnb listings dataset, commonly sourced via platforms like Inside Airbnb or Kaggle.
+**Interactive Filters:**
+•	Room Type Slicer to dynamically filter visuals.
+•	Time-based trends visible in KPI spark lines.
+________________________________________
+**Data Source**
+Data was collected from a sample Airbnb dataset for analysis purposes. Room type and guest accommodation attributes were used to model rental behavior.
 ________________________________________
 **Methodology**
 
 **Tools Used:**
-•	Power BI
-•	DAX Measures
-•	Card and Bar Visuals
-•	Slicers for room type interactivity
+•	Microsoft Power BI
+•	DAX for calculated measures (Average Rent, Max/Min Rent)
+•	Interactive Dashboard Design
 
 **Approach:**
 
-•	Filter-based price segmentation
-•	Ranking and average calculations per room type
-•	Interactive comparison by guest count and service level
+•	Calculated key metrics using DAX for rent analysis.
+•	Segmented dataset by room type and number of guests.
+•	Created custom visuals to explore price variation trends.
+•	Applied Power BI slicers for user interaction and drill-down.
 ________________________________________
 **Recommendations**
 
-•	Promote shared rental units in high-demand urban areas.
-•	Optimize pricing for mid-capacity stays (4–6 guests) current pricing suggests market opportunity.
-•	Increase visibility of budget room types like treehouses for experience-based travellers.
-•	Develop bundle pricing models for single or two-guest accommodations.
+•	Optimize Listings for Solo Guests: Target premium solo travelers by offering better value and services for high-rent single-guest stays.
+•	Diversify Low-Cost Options: Promote Treehouses, Tents, and Shared Suites for budget-conscious users or unique stays.
+•	Strategic Pricing by Room Type: Data shows substantial price variance based on room type; hosts can adjust their strategy accordingly.
+•	Real-Time Monitoring of Rent Trends: Incorporate rent monitoring to track seasonality and market shifts.
 ________________________________________
 **How to Use This Project**
 
-•	Launch the Power BI dashboard to view key price trends across categories.
-•	Use the slicer to explore patterns by room type.
-•	Examine bar charts and KPIs to understand which accommodations deliver the best returns.
+1.	Open the Power BI Dashboard (AirbnbPriceTrends.pbix).
+2.	Use slicers to filter room types and view pricing trends interactively.
+3.	Hover over line and bar charts to view exact figures.
+4.	Review insights to make data-driven recommendations for rental optimization.
 ________________________________________
 **About**
 
-This project demonstrates how Power BI can uncover pricing strategies and customer behaviour insights in the short-term rental industry. It empowers Airbnb hosts and investors to make data-driven decisions.
-
+This project demonstrates how Power BI can turn raw accommodation data into actionable pricing intelligence. It highlights how even small design changes (like adding Avg. and Min. Rent cards) can enhance decision-making.
+________________________________________
 **Author:** Williams Obinna
-
 **Email:** obinnawilliams3@gmail.com
+**Dashboard:** Airbnb Price Trends
+**Tools:** Power BI
 
-
-![Airbnb Price trends Dashboard](https://github.com/user-attachments/assets/7e579f8d-c2d8-42a4-820a-e956197b28ce)
+![Airbnb Price trends Dashboard](https://github.com/user-attachments/assets/f6f59d42-a0b0-4429-b34f-0a61837a2c53)
 
 
